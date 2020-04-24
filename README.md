@@ -27,4 +27,4 @@
 6. Session Hijacking/Fixation: The website is visited from two different browsers. One is logged in as admin. Added the extention 'hackertools/change_session_id.php' in the existing url. It gave the logged in session id of the admin. The id is copied. Then same extention is used in the other browser which is not logged in as admin. The session id is changed to the admin's session id that was copied. Now, the user can press the login option and can access the account without having admin info. 
      - Gif walkthrough
      
-  ![alt-text](Session_hijacking.gif)   
+  ![alt-text](Session_Hijacking.gif)   
